@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\RGR_BLL\RGR_BLL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="App\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="App\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="App\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Remove="App\**" />
+    </ItemGroup>
+
+</Project>

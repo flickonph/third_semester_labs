@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGR", "RGR\RGR.csproj", "{50F848A6-6A7F-43B4-A41C-FC5B08EA66EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGR_BLL", "RGR_BLL\RGR_BLL.csproj", "{C5C450F1-DF73-4671-B32D-6D3226D1E60D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50F848A6-6A7F-43B4-A41C-FC5B08EA66EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F848A6-6A7F-43B4-A41C-FC5B08EA66EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F848A6-6A7F-43B4-A41C-FC5B08EA66EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F848A6-6A7F-43B4-A41C-FC5B08EA66EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C450F1-DF73-4671-B32D-6D3226D1E60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C450F1-DF73-4671-B32D-6D3226D1E60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C450F1-DF73-4671-B32D-6D3226D1E60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C450F1-DF73-4671-B32D-6D3226D1E60D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
